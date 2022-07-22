@@ -1,0 +1,64 @@
+/* <!-- Tarjeta de presentación --> */
+
+body{
+    /* Viewport height*/
+    /* height: 200vh; */
+    /* Viewport width */
+    /* width: 98vw; */
+    /* box-sizing: border-box; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tarjetas{
+    /* width: auto; */
+    /* height: 320px; */
+    display: flex;
+    /* margin: 50px; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+}
+
+.par{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.tarjeta{
+    width: 400px;
+    height: 300px;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+h2{
+   background-color: black;
+   color: white; 
+   text-align: center;
+   padding: 10px;
+   margin: 0;
+}
+
+p{
+height: 100px;
+margin: 0;
+font-size: 24px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+
+h3{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}

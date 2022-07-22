@@ -1,0 +1,99 @@
+/* <!-- Clase de Flexbox --> */
+
+body{
+    /* Viewport height*/
+    height: 100vh;
+    /* Viewport width */
+    width: 98vw;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    height: 50vh;
+    /* width: 700px; */
+    list-style: none;
+    display: flex;
+    /* flex direction me permite poner el eje principal */
+    /* mi eje principal es column = horizontal */
+    flex-direction: column;
+    
+    /* Justify content usa el eje principal */
+    justify-content: ;
+    /* Align items usa el eje opuesto */
+    align-items: center;
+    flex-wrap: wrap;
+    /* para que align content funcione, tengo que usar flex-wrap: nowrap; */
+    align-content: ;
+}
+
+li{
+    margin-left: 15px;
+    background-color: aquamarine;
+    width: 100px;
+}
+
+.h{
+    order: -1;
+}
+
+.g{
+order: -
+}
+
+
+
+/* <!-- Pirámide --> */
+
+.linea{
+    display: flex;
+    justify-content: center;
+}
+
+
+.cuadrito{
+    width: 200px;
+    height: 200px;
+    border: black solid 1px;
+    margin: 1px;
+    background-color: rgb(4, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* <!-- Tarjeta de presentación --> */
+
+.tarjeta{
+    width: 400px;
+    /* height: 300px; */
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+h2{
+   background-color: black;
+   color: white; 
+   text-align: center;
+   padding: 10px;
+   margin: 0;
+}
+
+p{
+height: 100px;
+margin: 0;
+}
+
+h3{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}

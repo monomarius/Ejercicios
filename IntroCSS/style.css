@@ -1,0 +1,17 @@
+
+
+/* Selector por etiqueta */
+h1{color: white; background-color: rgb(157, 11, 74);}
+h2{color: blueviolet;}
+p{color: black;}
+body{background-color: aliceblue;}
+
+/* Selector por clase */
+.headers{color: blue}
+.parragraph{color: yellow}
+.content{max-width: 500px; margin: auto; text-align: center;}
+.div{border: 1px solid black;}
+.list{text-align: left;}
+
+/* Selector por id */
+#basico{color: bisque;}
