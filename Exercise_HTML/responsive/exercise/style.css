@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    display: flex;
+}
+
+div.aqua, div.verde, div.violeta{
+    width: 30vw;
+    height: 95vh;
+}
+
+.aqua{
+    background-color: aqua;
+}
+.verde{
+    background-color: chartreuse;
+}
+.violeta{
+    background-color: blueviolet;
+}
+
+@media screen and (min-width:600px) and (max-width:800px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .verde{
+        order: -1;
+        width: 90vw;
+        height: 50vh;
+    }
+    .aqua, .violeta{
+        width: 45vw;
+        height: 45vh;
+    }
+}
